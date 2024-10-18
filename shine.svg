@@ -29,6 +29,15 @@
   
   <!-- Stylized Cactus -->
   <g stroke="#2d5a27" stroke-width="1">
+    <!-- Snow caps on cactus arms -->
+    <path d="M183 405 Q185 402 187 405" fill="#ffffff" stroke="#ffffff"/>
+    <path d="M213 415 Q215 412 217 415" fill="#ffffff" stroke="#ffffff"/>
+    <!-- Main snow cap on cactus -->
+    <path d="M195 400 Q200 395 205 400" fill="#ffffff" stroke="#ffffff"/>
+    <!-- Small snow dots on cactus -->
+    <circle cx="197" cy="398" r="0.8" fill="#ffffff"/>
+    <circle cx="203" cy="397" r="0.6" fill="#ffffff"/>
+    
     <path d="M200 400 L200 450" stroke="#2d5a27" stroke-width="2"/>
     <!-- Left arm -->
     <path d="M200 420 L185 405 L185 420" fill="none"/>
@@ -44,16 +53,16 @@
   <g stroke="#7795b5" stroke-width="1" fill="none">
     <!-- Left element -->
     <!-- Snow cap on left element -->
-    <path d="M 110 400 Q 115 395 120 400 Q 125 395 130 400" fill="#ffffff" stroke="#ffffff"/>
-    <path d="M 120 400 L 120 450 M 110 420 Q 120 410 130 420 M 120 450 L 140 450" />
+    <path d="M110 400 Q115 395 120 400 Q125 395 130 400" fill="#ffffff" stroke="#ffffff"/>
+    <path d="M120 400 L120 450 M110 420 Q120 410 130 420 M120 450 L140 450" />
     
     <!-- Middle element -->
     <line x1="50" y1="450" x2="350" y2="450" />
     
     <!-- Right element -->
     <!-- Snow cap on right element -->
-    <path d="M 270 400 Q 275 395 280 400 Q 285 395 290 400" fill="#ffffff" stroke="#ffffff"/>
-    <path d="M 280 400 L 280 450 M 270 420 C 280 410 290 410 295 420 L 300 430" />
+    <path d="M270 400 Q275 395 280 400 Q285 395 290 400" fill="#ffffff" stroke="#ffffff"/>
+    <path d="M280 400 L280 450 M270 420 C280 410 290 410 295 420 L300 430" />
     
     <!-- Small lines on right -->
     <line x1="320" y1="460" x2="340" y2="460" />
