@@ -1,6 +1,6 @@
 # Shine Development
 
-##Description
+## Description
 
 This project demonstrates the basic functionality of a version control system (Git) in a software development workflow.
 
