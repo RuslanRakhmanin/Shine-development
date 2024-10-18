@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Background -->
+  <rect width="400" height="600" fill="#f5f0e6"/>
+  
+  <!-- Soft pink background elements -->
+  <ellipse cx="200" cy="300" rx="200" ry="300" fill="#fde6e6" opacity="0.3"/>
+  
+  <!-- Sun circle -->
+  <circle cx="200" cy="150" r="40" fill="#d85c5c"/>
+  <circle cx="200" cy="150" r="60" fill="#f4d03f" opacity="0.6"/>
+  
+
+  
+  <!-- Bottom geometric elements -->
+  <g stroke="#8b3a3a" stroke-width="1" fill="none">
+    <!-- Left element -->
+    <path d="M120 400 L120 450 M110 420 Q120 410 130 420 M120 450 L140 450" />
+    
+    <!-- Middle element -->
+    <line x1="50" y1="450" x2="350" y2="450" />
+    
+    <!-- Right element -->
+    <path d="M280 400 L280 450 M270 420 C280 410 290 410 295 420 L300 430" />
+    
+    <!-- Small lines on right -->
+    <line x1="320" y1="460" x2="340" y2="460" />
+    <line x1="320" y1="465" x2="340" y2="465" />
+    <line x1="320" y1="470" x2="340" y2="470" />
+  </g>
+</svg>
