@@ -9,7 +9,23 @@
   <circle cx="200" cy="150" r="40" fill="#d85c5c"/>
   <circle cx="200" cy="150" r="60" fill="#f4d03f" opacity="0.6"/>
   
-
+  <!-- Radiating lines around sun -->
+  <g stroke="#333" stroke-width="1">
+    <!-- Top lines -->
+    <line x1="200" y1="80" x2="200" y2="60" />
+    <line x1="180" y1="85" x2="170" y2="65" />
+    <line x1="220" y1="85" x2="230" y2="65" />
+    
+    <!-- Right lines -->
+    <line x1="250" y1="150" x2="270" y2="150" />
+    <line x1="245" y1="130" x2="265" y2="120" />
+    <line x1="245" y1="170" x2="265" y2="180" />
+    
+    <!-- Left lines -->
+    <line x1="150" y1="150" x2="130" y2="150" />
+    <line x1="155" y1="130" x2="135" y2="120" />
+    <line x1="155" y1="170" x2="135" y2="180" />
+  </g>
   
   <!-- Bottom geometric elements -->
   <g stroke="#8b3a3a" stroke-width="1" fill="none">
