@@ -27,6 +27,19 @@
     <line x1="155" y1="170" x2="135" y2="180" />
   </g>
   
+  <!-- Stylized Cactus -->
+  <g stroke="#2d5a27" stroke-width="1">
+    <path d="M200 400 L200 450" stroke="#2d5a27" stroke-width="2"/>
+    <!-- Left arm -->
+    <path d="M200 420 L185 405 L185 420" fill="none"/>
+    <!-- Right arm -->
+    <path d="M200 430 L215 415 L215 430" fill="none"/>
+    <!-- Geometric pattern on cactus -->
+    <line x1="200" y1="410" x2="205" y2="410"/>
+    <line x1="200" y1="420" x2="205" y2="420"/>
+    <line x1="200" y1="430" x2="205" y2="430"/>
+  </g>
+  
   <!-- Bottom geometric elements -->
   <g stroke="#d35400" stroke-width="1" fill="none">
     <!-- Left element -->
